@@ -1,0 +1,7 @@
+{
+  "name": "test-ionic-task",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
