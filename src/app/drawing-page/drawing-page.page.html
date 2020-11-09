@@ -1,0 +1,11 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Drawing page</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content padding no-bounce>
+  <canvas #myCanvas (touchstart)="handleStart($event)" (touchmove)="handleMove($event)"></canvas>
+</ion-content>
+<ion-footer>
+  <ion-button ion-button expand="full" color="primary" (click)="saveCanvasImage()">Save Image</ion-button>
+</ion-footer>
